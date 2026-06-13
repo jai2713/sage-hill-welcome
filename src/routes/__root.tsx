@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Calgary's easiest bottle depot experience. Book a valet drop-off time and get paid via Interac e-Transfer." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Sage Hill Bottle Depot — Valet Drop-Off Service" },
+      { name: "twitter:description", content: "Calgary's easiest bottle depot experience. Book a valet drop-off time and get paid via Interac e-Transfer." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d71b70ff-9f38-4a7a-94a4-636fe4aad2ba/id-preview-cf9f17e9--2eaf21e3-1527-4d04-8399-09f6424ad090.lovable.app-1781382768815.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d71b70ff-9f38-4a7a-94a4-636fe4aad2ba/id-preview-cf9f17e9--2eaf21e3-1527-4d04-8399-09f6424ad090.lovable.app-1781382768815.png" },
     ],
     links: [
       {
