@@ -321,8 +321,6 @@ function Index() {
               />
             </div>
 
-            <input type="hidden" {...register("source")} value="Landing Page" />
-
             <Button
               type="submit"
               disabled={isSubmitting}
